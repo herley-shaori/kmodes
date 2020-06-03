@@ -75,7 +75,7 @@ Alternatively, you can build the latest development version from source:
 
 .. code:: bash
 
-    git clone https://github.com/nicodv/kmodes.git
+    git clone https://github.com/herley-shaori/kmodes.git
     cd kmodes
     python setup.py install
 
