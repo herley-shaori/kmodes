@@ -44,7 +44,7 @@ Implemented are:
 - k-modes [HUANG97]_ [HUANG98]_
 - k-modes with initialization based on density [CAO09]_
 - k-prototypes [HUANG97]_
-- k-modes using levenshtein distance as dissimilarity function.
+- k-modes using levenshtein distance as dissimilarity function (inspect and run lev_dist.py).
 
 The code is modeled after the clustering algorithms in :code:`scikit-learn`
 and has the same familiar interface.
