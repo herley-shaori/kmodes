@@ -12,16 +12,13 @@ def levenshtein_dissim(a,b, **_):
         for k in x:
             kalimat+=str(k)
         datum_string.append(kalimat)
-
     kalimat_centroid = ''
     for x in b:
         kalimat_centroid+=str(x)
-
     hasilnya = list()
     for x in datum_string:
         hasil = 100 - fuzz.ratio(x,kalimat_centroid)
         hasilnya.append(hasil)    
-    
     return hasilnya
 
 def matching_dissim(a, b, **_):
