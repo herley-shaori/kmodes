@@ -22,7 +22,7 @@ def levenshtein_dissim(a,b, **_):
         hasil = 100 - fuzz.ratio(x,kalimat_centroid)
         hasilnya.append(hasil)    
     
-    return
+    return hasilnya
 
 def matching_dissim(a, b, **_):
     """Simple matching dissimilarity function"""
